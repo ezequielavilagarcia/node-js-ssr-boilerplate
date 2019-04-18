@@ -1,0 +1,9 @@
+h1 {
+  color: green;
+  font-weight: 700;
+}
+@include media-breakpoint-only('md') {
+  body {
+    background: black;
+  }
+}

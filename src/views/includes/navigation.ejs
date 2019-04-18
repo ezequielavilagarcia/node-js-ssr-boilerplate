@@ -1,0 +1,12 @@
+<header class="main-header">
+  <nav class="main-header__nav">
+    <ul class="main-header__item-list">
+      <li class="main-header__item <%= path!= null && path === '/boilerplate'? 'active': '' %>">
+        <a href="/boilerplate">Boilerplate Page</a>
+      </li>
+      <li class="main-header__item <%= path!= null && path === '/page-not-found'? 'active': '' %>">
+        <a href="/page-not-found">Not found Page</a>
+      </li>
+    </ul>
+  </nav>
+</header>

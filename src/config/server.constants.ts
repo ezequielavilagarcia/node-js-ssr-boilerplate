@@ -1,0 +1,3 @@
+export enum SERVER_CONSTANTS {
+  DEFAULT_SERVER_PORT = 5500
+}
